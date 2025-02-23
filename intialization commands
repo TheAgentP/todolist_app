@@ -1,0 +1,24 @@
+npx create-react-app todo-app
+
+# uid allows us to generate ids for the project
+npm i u uid
+
+# now installing font awesome.. (https://docs.fontawesome.com/web/use-with/react)
+## svg core
+npm i --save @fortawesome/fontawesome-svg-core
+
+## icon styles
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+## React component
+npm i --save @fortawesome/react-fontawesome@latest
+
+# Helpful Commands
+npm rm -g create-react-app
+npm install -g create-react-app
+npx create-react-app my-app
+
+# Stackoverflow
+npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
